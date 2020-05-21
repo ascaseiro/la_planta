@@ -1,0 +1,70 @@
+<div class="container-fluid no-padding my-4"  style="max-width: 100vs;">
+  <div class="row text-center">
+      <img src="/imagenes/plantas-oficina-t.jpg" alt="" class="img-responsive" style="max-width: 100%;">
+  </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-around">
+    <div class="col-md-10 bg-white mb-4 shadow rounded">
+      <div class="row bg-dark" id="encabezado">
+        <div class="col">
+          <p class="align-middle mt-2">LA PLANTA COWORKING</p>
+        </div>
+      </div>
+      <div class="row bg-white" id="presentacion">
+        <div class="col mt-2">
+          <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur aperiam vitae, quod ipsam earum, hic blanditiis dolor aliquid eaque assumenda commodi ad cupiditate sed molestiae pariatur id inventore omnis quaerat, reprehenderit aliquam tempore obcaecati optio. Adipisci, laborum. Facilis sed totam maiores alias in officiis optio, tenetur, repellendus quod soluta fugit adipisci voluptate hic, veniam eligendi recusandae similique beatae quo aliquam officia? Fugit praesentium ad et delectus iste consectetur natus cumque quas. Eos iste id exercitationem error? Culpa optio praesentium pariatur repudiandae! Voluptatibus architecto obcaecati nihil facere ullam maiores doloribus nulla laboriosam corporis optio minus, error, cumque quae saepe maxime!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-10 bg-white my-4 shadow rounded">
+      <div class="row bg-white" id="presentacion">
+        <div class="col mt-2">
+          <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur aperiam vitae, quod ipsam earum, hic blanditiis dolor aliquid eaque assumenda commodi ad cupiditate sed molestiae pariatur id inventore omnis quaerat, reprehenderit aliquam tempore obcaecati optio. Adipisci, laborum. Facilis sed totam maiores alias in officiis optio, tenetur, repellendus quod soluta fugit adipisci voluptate hic, veniam eligendi recusandae similique beatae quo aliquam officia? Fugit praesentium ad et delectus iste consectetur natus cumque quas. Eos iste id exercitationem error? Culpa optio praesentium pariatur repudiandae! Voluptatibus architecto obcaecati nihil facere ullam maiores doloribus nulla laboriosam corporis optio minus, error, cumque quae saepe maxime!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-10 bg-white my-4 shadow rounded">
+      <div class="row bg-dark" id="encabezado">
+        <div class="col">
+          <p class="align-middle mt-2">LA PLANTA COWORKING</p>
+        </div>
+      </div>
+      <div class="row bg-white" id="presentacion">
+        <div class="col mt-2">
+          <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur aperiam vitae, quod ipsam earum, hic blanditiis dolor aliquid eaque assumenda commodi ad cupiditate sed molestiae pariatur id inventore omnis quaerat, reprehenderit aliquam tempore obcaecati optio. Adipisci, laborum. Facilis sed totam maiores alias in officiis optio, tenetur, repellendus quod soluta fugit adipisci voluptate hic, veniam eligendi recusandae similique beatae quo aliquam officia? Fugit praesentium ad et delectus iste consectetur natus cumque quas. Eos iste id exercitationem error? Culpa optio praesentium pariatur repudiandae! Voluptatibus architecto obcaecati nihil facere ullam maiores doloribus nulla laboriosam corporis optio minus, error, cumque quae saepe maxime!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid no-padding responsive mt-4" style="height: 450px;" style="max-width: 100vs;">
+  <div class="row text-light h-100 width-100% text-center" id="testimonios">
+    <div class="container my-auto">
+      <div class="col-md-4 service-package bg-white rounded shadow my-auto mx-auto" id="opiniones" style="text-align: center;">
+        <h4 class="f-primary-b b-h4-special f-h4-special" style="margin: 10px 0 35px 0;"><span class="service-package-title">¿Qué dicen nuestros clientes?</span></h4>
+        <div id="google-reviews"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://tutorialswebsite.com/cdn/google_places.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDRERbmhKNYw45rS88_NY_UYztPXIhA3Iw&signed_in=true&libraries=places"></script>
+        <script>
+          jQuery(document).ready(function( $ ) {
+            $("#google-reviews").googlePlaces({
+              placeId: 'ChIJm5TeW3JiLw0RGUTpLW7KHhc', 
+              render: ['reviews'],
+              min_rating:3,
+              max_rows:10,
+              rotateTime: 6000,
+              shorten_names: true
+            });
+          });
+        </script>
+        <a class="btn text-light" id="boton-opinion" style="margin:20px auto;" href="https://www.google.com/search?q=la+planta+cowoking&oq=la+planta+cowoking&aqs=chrome..69i57j0l2.3448j0j4&sourceid=chrome&ie=UTF-8#lrd=0xd2f62725bde949b:0x171eca6e2de94419,1,,," target="_blank" rel="noopener noreferrer">Lee todas la opiniones</a>
+      </div>
+    </div>        
+  </div>
+</div>
+
+    

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Planta Coworking | Coworking en Vigo</title>
+  <link rel="shortcut icon" type="image/png" href="/imagenes/favicon.png"/>
+  <link href="//db.onlinewebfonts.com/c/10ce3148b2180e3abda9031e8231a45f?family=Arual" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : '6Ld_qPoUAAAAAEuB2_E26he1KH3GS5W2PSFj4aRH'
+        });
+      };
+    </script>
+
+</script>
+
+</head>
+<body>
+
+
+  <div class="bg-light">
+    <div class="container"  id="barra-superior">
+      <div class="row">
+        <div class="col-6 my-auto">
+          <a href="https://www.facebook.com/laplantacoworking/" target="_blank" class="btn btn-lg">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+          <a href="https://es.linkedin.com/in/la-planta-coworking" target="_blank" class="btn btn-lg">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+        </div>
+        <div class="col md-2 text-right mt-2 ">
+          <i class="fa fa-phone" id="telefono-icono" style="font-size: 30px;"></i>
+        </div>
+        <div class="col-2 mt-2">
+          <h4>886 143 710</h4>
+        </div>
+      </div>
+    </div>
+  
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-white" style="height: 110px;">
+    <a class="navbar-brand h-100" href="/"><img src="/imagenes/logo.png" alt="La Planta Coworking - Vigo" style="max-height: 100%;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/espacios">Espacios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/tarifas">Tarifas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/actividades">Actividades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn navbar" data-toggle="modal" data-target="#exampleModal">
+            Contacto
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">¿Hablamos?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                 </div>
+                 <div class="row">
+                    <div class="col-5 mx-auto mt-2">
+                      <img src="/imagenes/talk.jpg" class="rounded-circle shadow" style="max-width: 100%;" alt="">
+                    </div>
+                  </div>
+              <div class="modal-body">
+                {{msg}}
+                <form action="send" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Nombre y apellidos" autofocus>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="email" placeholder="Tu email" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="phone" placeholder="Tu teléfono" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea rows="4"  name="message" placeholder="Mensaje" class="form-control"></textarea>
+                            </div>
+                            <div id="html_element" class="my-4"></div>
+
+                            <button type="submit" class="btn btn-primary btn-block g-recaptcha" data-sitekey="6Lc2m_oUAAAAAPdKNhdDnW4LBQKPHYcvOHxoq_my" 
+        data-callback='onSubmit' 
+        data-action='submit'>
+                                Enviar
+                            </button>
+                        </form>
+              </div>
+              <div class="modal-footer">
+                <button  class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- CUERPO -->
+  {{{ body }}}
+<div id="google-reviews"></div>
+
+<!-- FOOTER -->
+  <footer class="page-footer font-small teal pt-4" >
+    <div class="container-fluid no-padding responsive mt-4" style="max-width: 100vs;">
+      <div class="row bg-dark text-light width-100% text-center">
+        <div class="col-md-4 my-auto">
+          <div class="row mt-3">
+            <div class="col-12 text-center">
+              <i class="fa fa-map-marker" style="font-size: 50px;"></i>
+              <span class="h3 ml-2" id="texto-footer">Dirección</span>
+            </div>
+          </div>
+          <div class="row mb-3" id="texto-footer">
+            <div class="col-12 text-center">
+              <p>c/ Zaragoza nº8, 36204 / Vigo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-auto">
+          <div class="row mt-3">
+            <div class="col-12 text-center">
+              <i class="fa fa-phone" style="font-size: 50px;"></i>
+              <span class="h3 ml-2" id="texto-footer">Teléfono</span>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-12 text-center" id="texto-footer">
+              <p>886 143 710</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-auto">
+          <div class="row mt-3">
+            <div class="col-12 text-center">
+              <i class="fa fa-envelope-o" style="font-size: 50px;"></i>
+              <span class="h3 ml-2" id="texto-footer">E-mail</span>
+            </div>
+          </div>
+          <div class="row mb-3S">
+            <div class="col-12 text-center">
+              <p id="texto-footer">info@laplantacoworking.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.4009695406176!2d-8.725233584933235!3d42.22724597919609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f62725bde949b%3A0x171eca6e2de94419!2sLa%20Planta%20Coworking!5e0!3m2!1sgl!2ses!4v1587820063963!5m2!1sgl!2ses" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <hr class="clearfix w-100 d-md-none pb-3">
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3 bg-dark text-light">© 2020 La Planta Coworking</div>
+  </footer>
+
+</div>
+<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script>window.sr = ScrollReveal();
+  sr.reveal('#opiniones', {
+    duration: 2000,
+    origin: 'top',
+    distance: '150px'
+  });
+</script>
+ <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
+</body>
+</html>

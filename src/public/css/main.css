@@ -1,0 +1,124 @@
+@import url(//db.onlinewebfonts.com/c/10ce3148b2180e3abda9031e8231a45f?family=Arual);
+
+
+#texto-footer {
+  color: #bdd348;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 600;
+}
+
+.navbar {
+  font-family: "arual", arual;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#barra-superior {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#encabezado {
+  color: #bdd348;
+  font-family: "arual", arual;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#testimonios {
+  background-color: #bdd348;
+}
+
+#titulo-targeta {
+  color: #bdd348;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#texto-targeta {
+  text-align: justify;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#exampleModal {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+}
+
+#telefono-icono {
+  color: #bdd348;
+}
+
+/*Reviews*/
+
+#map-plug {display:none;}
+ 
+#google-reviews {
+color: #000;
+display:flex;
+flex-wrap:wrap;
+/*display: grid;
+grid-template-columns: repeat( auto-fit, minmax(320px, 1fr));*/
+}
+span.review-profile-image {
+    float: left;
+        padding: 0px 15px 0px 0px;
+}
+span.review-profile-image img {
+    width: 40px;
+}
+.modal-backdrop.in{display:none;}
+.review-item {
+    border-bottom: solid 1px rgba(190,190,190,.35);
+    margin: 5px auto;
+    display: block;
+    width: 100%;
+    padding: 15px 0px;
+}
+ 
+@media ( max-width:1200px) {
+  .review-item { flex: 1 1 40%; }
+}
+ 
+@media ( max-width:450px) {
+  .review-item { flex: 1 1 90%; }
+}
+ 
+.review-meta, .review-stars {text-align:left; font-size:115%;}
+.review-author { text-transform: capitalize; font-weight:bold; }
+.review-date {opacity:.6; display:block;}
+.review-text {  line-height: 1.55;
+    text-align: left;
+    max-width: 72em;
+    margin: auto;}
+ 
+ 
+ 
+.review-stars ul {
+display: inline-block;
+list-style: none !important;
+margin:0; padding:0;
+}
+ 
+.review-stars ul li {
+float: left;
+list-style: none !important;
+margin-right: 1px;
+line-height:1;
+}
+ 
+.review-stars ul li i {
+  color: #E4B248;
+  font-size: 1.4em;
+  font-style:normal;
+}
+.review-stars ul li i.inactive { color: #c6c6c6;}
+.star:after { content: "\2605"; }
+
+.service-package-title {
+  color: #000;
+}
+
+#boton-opinion {
+  background-color: #bdd348;
+}
