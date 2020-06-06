@@ -39,11 +39,57 @@
       </div>
       <div class="row">
         <div class="col text-center">
-          <a href="/contacto">
-            <div class="button btn btn-secondary btn-lg">Más información</div>
-          </a>
+          <button type="button" class="button btn btn-secondary btn-lg" data-toggle="modal" data-target="#exampleModal">
+            Más información
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">¿Hablamos?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                 </div>
+                 <div class="row">
+                    <div class="col-5 mx-auto mt-2">
+                      <img src="/imagenes/talk.jpg" class="rounded-circle shadow" style="max-width: 100%;" alt="">
+                    </div>
+                  </div>
+              <div class="modal-body">
+                {{msg}}
+                <form action="send" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Nombre y apellidos" autofocus>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="email" placeholder="Tu email" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="phone" placeholder="Tu teléfono" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea rows="4"  name="message" placeholder="Mensaje" class="form-control"></textarea>
+                            </div>
+                            <div id="html_element" class="my-4"></div>
+
+                            <button type="submit" class="btn btn-primary btn-block g-recaptcha" data-sitekey="6Lc2m_oUAAAAAPdKNhdDnW4LBQKPHYcvOHxoq_my" 
+                               data-callback='onSubmit' data-action='submit'>
+                                Enviar
+                            </button>
+                        </form>
+              </div>
+              <div class="modal-footer">
+                <button  class="btn btn-secondary" data-dismiss="modal">Cerrar</button>  
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
     </div>
     <div class="col-md-3 py-sm-2 border">
       <div class="ul py-4">
@@ -78,9 +124,55 @@
       </div>
       <div class="row">
         <div class="col text-center">
-          <a href="/contacto">
-            <div class="button btn btn-secondary btn-lg">Más información</div>
-          </a>
+          <button type="button" class="button btn btn-secondary btn-lg" data-toggle="modal" data-target="#exampleModal">
+            Más información
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">¿Hablamos?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                 </div>
+                 <div class="row">
+                    <div class="col-5 mx-auto mt-2">
+                      <img src="/imagenes/talk.jpg" class="rounded-circle shadow" style="max-width: 100%;" alt="">
+                    </div>
+                  </div>
+              <div class="modal-body">
+                {{msg}}
+                <form action="send" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Nombre y apellidos" autofocus>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="email" placeholder="Tu email" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="phone" placeholder="Tu teléfono" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea rows="4"  name="message" placeholder="Mensaje" class="form-control"></textarea>
+                            </div>
+                            <div id="html_element" class="my-4"></div>
+
+                            <button type="submit" class="btn btn-primary btn-block g-recaptcha" data-sitekey="6Lc2m_oUAAAAAPdKNhdDnW4LBQKPHYcvOHxoq_my" 
+                               data-callback='onSubmit' data-action='submit'>
+                                Enviar
+                            </button>
+                        </form>
+              </div>
+              <div class="modal-footer">
+                <button  class="btn btn-secondary" data-dismiss="modal">Cerrar</button>  
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -118,9 +210,55 @@
       </div>
       <div class="row">
         <div class="col text-center">
-          <a href="/contacto">
-            <div class="button btn btn-secondary btn-lg">Más información</div>
-          </a>
+          <button type="button" class="button btn btn-secondary btn-lg" data-toggle="modal" data-target="#exampleModal">
+            Más información
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">¿Hablamos?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                 </div>
+                 <div class="row">
+                    <div class="col-5 mx-auto mt-2">
+                      <img src="/imagenes/talk.jpg" class="rounded-circle shadow" style="max-width: 100%;" alt="">
+                    </div>
+                  </div>
+              <div class="modal-body">
+                {{msg}}
+                <form action="send" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Nombre y apellidos" autofocus>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="email" placeholder="Tu email" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="phone" placeholder="Tu teléfono" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea rows="4"  name="message" placeholder="Mensaje" class="form-control"></textarea>
+                            </div>
+                            <div id="html_element" class="my-4"></div>
+
+                            <button type="submit" class="btn btn-primary btn-block g-recaptcha" data-sitekey="6Lc2m_oUAAAAAPdKNhdDnW4LBQKPHYcvOHxoq_my" 
+                               data-callback='onSubmit' data-action='submit'>
+                                Enviar
+                            </button>
+                        </form>
+              </div>
+              <div class="modal-footer">
+                <button  class="btn btn-secondary" data-dismiss="modal">Cerrar</button>  
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
