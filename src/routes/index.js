@@ -70,4 +70,16 @@ router.get('/blog', (req, res) => {
   res.render('blog');
 });
 
+router.get('/privacidad', (req,res) => {
+  res.render('privacidad');
+});
+
+router.get('/legal', (req,res) => {
+  res.render('legal');
+});
+
+router.get('/cookies' , (req,res) => {
+  res.render('cookies');
+});
+
 module.exports = router;
