@@ -50,7 +50,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" </span>
     </button>
-    <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav" style="width:fit-content; z-index: 1; background-color:white">
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav" style="z-index: 1; background-color:white ;">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="/">Inicio</a>
@@ -71,9 +71,9 @@
           <button type="button" class="btn navbar pull-right" data-toggle="modal" data-target="#exampleModal">
             Contacto
           </button>
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal fade" data-backdrop="false" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-y: visible;" >
             <div class="modal-dialog" role="document">
-              <div class="modal-content">
+              <div class="modal-content" >
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLabel">¿Hablamos?</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -125,7 +125,10 @@
 </nav>
 
   <!-- CUERPO -->
+
   {{{ body }}}
+  
+ 
 <div id="google-reviews"></div>
 
 <!-- FOOTER -->
