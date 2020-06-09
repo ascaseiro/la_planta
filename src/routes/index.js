@@ -67,7 +67,7 @@ router.get('/tarifas', (req, res) => {
 });
 
 router.get('/blog', (req, res) => {
-  res.render('blog');
+  res.redirect('http://localhost:2368');
 });
 
 router.get('/privacidad', (req,res) => {
