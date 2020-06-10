@@ -37,6 +37,7 @@ router.get('/espacios', (req, res) => {
         tls: {
           rejectUnauthorized: false
         }
+              
     });
 
     // setup email data with unicode symbols
